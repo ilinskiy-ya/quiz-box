@@ -2,139 +2,164 @@
 body {
     font-family:"Open Sans" ;
 }
+body {
+    background:  #17191C;
+    font-size: 16px;
+    line-height: 1.42;
+}
+
+ul {
+    padding: 0;
+    margin: 0;
+}
+
+ul li {
+    list-style: none;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+    font-weight: normal;
+}
+
+.wrapper {
+    margin: 0 auto;
+    width: 1400px;
+}
+
+
+
+.header {
+    height: 60px;
+    position: relative;
+    margin-bottom: 150px;
+}
+
+.logo {
+    display: block;
+    position: absolute;
+    top: 27px;
+    left: 0px;
+}
+
+.menu {
+    position: absolute;
+    top: 30px;
+    left: 421px;
+
+}
+
+.contacts {
+    position: absolute;
+    top: 27px;
+    right: 0px ;
+}
+
+.menu__item {
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 62px;    
+}
+
+.menu__item:last-child {
+    margin-right: 0;
+}
+
+
 
 .menu__link {
-font-size: 16px;
-line-height: 1,3;
-display: flex;
-align-items: center;
-text-align: center;
-color: #000001;
+text-decoration: none;
+color: #fff;
+}
+
+.contacts {
+    font-style: normal;
+    text-align: right;
+    top: 21px;
+    right: 260px;
 }
 
 .contacts__phone {
 font-size: 26px;
 line-height: 1,3x;
-display: flex;
-align-items: center;
-color: #000001;
+text-decoration: none;
+color: #fff;
 }
 
 .contacts__info {
-font-size: 13px;
-line-height: 1,3;
-/* identical to box height, or 154% */
-display: flex;
-align-items: center;
-text-decoration-line: underline;
-color: #000001;
+    font-size: 13px;
+    top: 21px;
+    right: 260px;
+    display: flex;
+    align-items: center;
+    text-decoration-line: underline;
+    color: #fff;
+}
+
+.hello__container {
+    width: 640px;
+    margin-bottom: 210px;
 }
 
 .hello__title {
-font-weight: bold;
-font-size: 60px;
-line-height: 1,3;
-/* or 107% */
-display: flex;
-align-items: flex-end;
-color: #000001;
+    font-weight: bold;
+    font-size: 60px;
+    color: #fff;
+    line-height: 1.1;
+    margin-bottom: -4px;
 }
 
 .hello__text {
-font-size: 21px;
-line-height: 1,3;
-display: flex;
-align-items: center;
-color: #000001;
+    font-size: 21px;
+    display: flex;
+    align-items: center;
+    color: #fff;
+    margin-bottom: 90px;
 }
 
 .button {
-font-weight: bold;
-font-size: 14px;
-line-height: 1,3;
-/* identical to box height */
-display: flex;
-align-items: center;
-text-transform: uppercase;
-color: #000001;   
+    font-size: 14px;
+    background: #8F00FF;
+    color: #fff;
+    border-radius: 4px;
+    padding: 18px 41px ;
+    text-transform: uppercase;
+    text-decoration: none;
+    display: inline-block;
+
 }
 
+.new {
+    margin-bottom: 127px;
+}
+
+
+
 .title {
-font-weight: bold;
-font-size: 36px;
-line-height: 1,3;
-/* identical to box height */
-display: flex;
-align-items: flex-end;
-color: #000001;    
+    font-weight: bold;
+    font-size: 36px;
+    color: #fff; 
+    margin-bottom: 51px;   
+}
+
+.new__list {
+    min-height: 470px;
+    background: #fff;
+    border-radius: 4px;
+    display: inline-block;
+    margin-right: 27px;
+    width: 362px;
+}
+
+.new__content. {
+    min-height: 144px;
+    margin-bottom: 33px;
 }
 
 .new__title {
-font-weight: bold;
-font-size: 24px;
-line-height: 1,3;
-/* identical to box height */
-display: flex;
-align-items: flex-end;
-color: #000000;    
+    font-weight: bold;
+    font-size: 24px;
+    color: #000000;
+        
 }
 
-.duration__text {
-font-size: 16px;
-line-height: 1,3;
-display: flex;
-align-items: center;
-color: #666666;    
-}
-
-.new__text {
-font-size: 14px;
-line-height: 1,3;
-/* or 150% */
-display: flex;
-align-items: center;
-color: #303030;    
-}
-
-.past__date {
-font-size: 14px;
-line-height: 1,3;
-/* identical to box height, or 150% */
-display: flex;
-align-items: center;
-color: #000001;    
-}
-
-.past__title {
-font-weight: bold;
-font-size: 24px;
-line-height: 1,3;
-/* identical to box height, or 150% */
-display: flex;
-align-items: center;
-color: #000001    
-}
-
-.past__text {
-font-size: 16px;
-line-height: 1,3;
-/* or 131% */
-display: flex;
-align-items: center;
-color: #000001;
-}
-
-.pagination__link {
-font-weight: bold;
-font-size: 16px;
-line-height: 1,3;
-/* identical to box height, or 131% */
-display: flex;
-align-items: center;
-color: #000001;    
-}
-
-.container {
-   max-width: 1140; 
-   margin: 0% auto;
-}
