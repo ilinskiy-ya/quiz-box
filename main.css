@@ -24,13 +24,13 @@ h1, h2, h3, h4, h5, h6 {
 
 .wrapper {
     margin: 0 auto;
-    width: 1400px;
+    width: 1140px;
 }
 
 
 
 .header {
-    height: 60px;
+    height: 52px;
     position: relative;
     margin-bottom: 150px;
 }
@@ -53,6 +53,10 @@ h1, h2, h3, h4, h5, h6 {
     position: absolute;
     top: 27px;
     right: 0px ;
+    font-style: normal;
+    text-align: right;
+    top: 21px;
+    right: 0px;
 }
 
 .menu__item {
@@ -72,13 +76,6 @@ text-decoration: none;
 color: #fff;
 }
 
-.contacts {
-    font-style: normal;
-    text-align: right;
-    top: 21px;
-    right: 260px;
-}
-
 .contacts__phone {
 font-size: 26px;
 line-height: 1,3x;
@@ -94,11 +91,13 @@ color: #fff;
     align-items: center;
     text-decoration-line: underline;
     color: #fff;
+    margin-left: 92px;
+    height: 4px;
 }
 
 .hello__container {
     width: 640px;
-    margin-bottom: 210px;
+    margin-bottom: 189px;
 }
 
 .hello__title {
@@ -106,7 +105,8 @@ color: #fff;
     font-size: 60px;
     color: #fff;
     line-height: 1.1;
-    margin-bottom: -4px;
+    margin-bottom: 18px;
+
 }
 
 .hello__text {
@@ -114,7 +114,8 @@ color: #fff;
     display: flex;
     align-items: center;
     color: #fff;
-    margin-bottom: 90px;
+    margin-bottom: 74px;
+    margin-left: 4px
 }
 
 .button {
@@ -131,9 +132,8 @@ color: #fff;
 
 .new {
     margin-bottom: 127px;
+    
 }
-
-
 
 .title {
     font-weight: bold;
@@ -143,23 +143,44 @@ color: #fff;
 }
 
 .new__list {
-    min-height: 470px;
-    background: #fff;
+   display: flex;
+   justify-content: space-between;
+    
+}
+
+.new__item {
     border-radius: 4px;
+    min-height: 449px;
     display: inline-block;
     margin-right: 27px;
+    background: #fff;
     width: 362px;
 }
-
-.new__content. {
-    min-height: 144px;
-    margin-bottom: 33px;
-}
-
 .new__title {
     font-weight: bold;
     font-size: 24px;
-    color: #000000;
-        
+    color: #000000;  
+    padding: 24px;      
 }
+
+.duration__content {
+    display: inline-flex;
+}
+
+.clock {
+    margin-left: 28px;
+}
+
+.duration__text {
+    margin-left: 10px;
+    color: #666;
+}
+
+.new__text {
+    margin-left: 22px;
+}
+
+
+
+
 
