@@ -347,6 +347,29 @@ color: #fff;
 .button--gradient {
     background: rgba(51, 170, 51, .1) ;
     border-style:solid;
-    
+    border-width: 1px;
 }
+
+
+.footer {
+    height: 152px;
+    position: relative;
+}
+
+.contacts__info--footer {
+    text-decoration: none;
+}
+
+.social {
+    position: absolute;
+    display: inline-flex;
+    top: 53px;
+    right: 300px;
+}
+
+.sosocial__image {
+    vertical-align: middle;
+    margin-right: 10px;
+}
+
 
