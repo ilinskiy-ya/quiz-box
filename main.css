@@ -253,12 +253,13 @@ color: #fff;
 }
 
 .past {
-    margin-bottom: 45px;
+    margin-bottom: 38px;
 }
 
 .container__pages {
     text-align: center;
     padding-left: 90px;
+    margin-bottom: 136px;
 
 }
 
@@ -302,10 +303,50 @@ color: #fff;
 }
 
 
-.about::before {
+.about:before {
     content: "";
-    display: block;
+    display: inline-block;
+    vertical-align: top;
     width: 489px;
     height: 505px;
-    background: url(img/image--people2.jpg)
+    background: url("img/image--people2.jpg") center center / cover no-repeat; 
 }
+
+.image__about {
+    background: linear-gradient(70deg, #8F00FF, #148CFF);
+    margin-left: -139px;
+    margin-top: 100px;
+    padding: 81px 68px;
+    display: inline-block;
+    vertical-align: top;
+    width: 648px;
+    height: 236px;
+    border-radius: 5px;
+}
+
+.title__about {
+    font-weight: bold;
+    font-size: 36px;
+    color: #fff;
+    margin-bottom: 37px;
+}
+
+.text__about {
+    color: #fff;
+    margin-bottom: 41px;
+}
+
+.text__about p {
+    margin-bottom: 20px;
+}
+
+.text__about p:last-child {
+    margin-bottom: 0px;
+}
+
+.button--gradient {
+    background: rgba(51, 170, 51, .1) ;
+    border-style:solid;
+    
+}
+
