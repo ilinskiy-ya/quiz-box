@@ -30,17 +30,13 @@ h1, h2, h3, h4, h5, h6 {
 
 .wrapper__content {
     width: 1140px;
-    margin-top: 64px
+    margin-top: 64px;
+    margin-left: 372px
 }
 
 .main__page__wrapper {
-    background: url(img/backgound/background_top.jpg) center top  no-repeat,
-     url(/img/backgound/background_footer.jpg) right bottom no-repeat;  
-      
-}
-
-.background {
-    opacity: .1
+    background: url(img/backgound/background_top.png) left top  no-repeat,
+     url(img/backgound/background_footer.png) left bottom 148px no-repeat;        
 }
 
 .header {
@@ -373,7 +369,8 @@ color: #fff;
     height: 152px;
     width: 1140px;
     position: relative;
-    margin-top: 82px
+    margin-top: 82px;
+    margin-left: 366px;
 }
 
 .menu--footer {
