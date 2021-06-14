@@ -45,34 +45,37 @@ h1, h2, h3, h4, h5, h6 {
     margin-bottom: 150px;
 }
 
-.logo {
-    display: block;
-    position: absolute;
-    top: 27px;
-    left: 0px;
+.header__container {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
 }
 
-.menu {
+.logo {
+    display: block;
+    /*position: absolute;
+    top: 27px;
+    left: 0px;*/
+}
+
+/*.menu {
     position: absolute;
     top: 30px;
     left: 421px;
-
-}
+} */
 
 .contacts {
-    position: absolute;
+    /*position: absolute;*/
     top: 27px;
-    right: 0px ;
+   /* right: 0px ;*/
     font-style: normal;
     text-align: right;
-    top: 21px;
+    /*top: 21px;*/
     right: 0px;
 }
 
-.menu__item {
-    display: inline-block;
-    vertical-align: middle;
-    margin-right: 62px;    
+.menu__list {
+    display: flex;         
 }
 
 .menu__item:last-child {
@@ -82,8 +85,9 @@ h1, h2, h3, h4, h5, h6 {
 
 
 .menu__link {
-text-decoration: none;
-color: #fff;
+    text-decoration: none;
+    color: #fff;
+    margin-right: 60px;
 }
 
 .contacts__phone {
@@ -107,7 +111,7 @@ color: #fff;
 
 .hello__container {
     width: 640px;
-    margin-bottom: 189px;
+    margin-bottom: 226px;
 }
 
 .hello__title {
@@ -136,9 +140,7 @@ color: #fff;
     padding: 18px 41px ;
     text-transform: uppercase;
     text-decoration: none;
-    display: inline-block;
-
-}
+    }
 
 .new {
     margin-bottom: 127px;
@@ -160,8 +162,7 @@ color: #fff;
 
 .new__item {
     border-radius: 6px;
-    min-height: 449px;
-    display: inline-block;
+    min-height: 449px;;
     margin-right: 4px;
     background: #fff;
     width: 362px;
@@ -191,6 +192,12 @@ color: #fff;
     font-size: 14px;
 }
 
+.card__container {
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+}
+
 .button--dark {
     margin-top: 29px;
     margin-left: 20px;
@@ -201,8 +208,7 @@ color: #fff;
     padding: 18px 41px ;
     text-transform: uppercase;
     text-decoration: none;
-    display: inline-block;
-}
+    }
 
 .button--dark:hover {
     margin-top: 29px;
@@ -216,17 +222,19 @@ color: #fff;
     padding: 18px 41px ;
     text-transform: uppercase;
     text-decoration: none;
-    display: inline-block;
     margin-left: 21px;
 }
 
-
+.past__games {
+    display: flex;
+    flex-direction: inherit;
+    justify-content: space-around;
+}
 
 
 
 .month {
     width: 557px;
-    display: inline-block;
     vertical-align: top;
     position: relative;
     border-radius: 4px;
@@ -294,9 +302,8 @@ color: #fff;
 }
 
 .pagination__item {
-    display: inline-block;
+    display: flex;
     vertical-align: middle;
-
 }
 
 .pagination__link--active:hover {
@@ -304,18 +311,20 @@ color: #fff;
 }
 
 .pagination__link {
-    line-height: 32px;
-    display: inline-block; 
+    line-height: 32px; 
     width: 32px;
     height: 32px;
     border-radius: 50%;
     position: relative;
 }
 
+.about {
+    display: flex;
+}
 
 .about:before {
     content: "";
-    display: inline-block;
+    display: inline-flex;
     vertical-align: top;
     width: 489px;
     height: 505px;
@@ -327,7 +336,6 @@ color: #fff;
     margin-left: -139px;
     margin-top: 100px;
     padding: 107px 68px;
-    display: inline-block;
     vertical-align: top;
     width: 648px;
     height: 236px;
@@ -365,6 +373,12 @@ color: #fff;
     opacity: 0.1
 }
 
+.footer__container {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline
+}
+
 .footer {
     height: 152px;
     width: 1140px;
@@ -374,7 +388,6 @@ color: #fff;
 }
 
 .menu--footer {
-    position: absolute;
     left: 298px;
 }
 
@@ -383,6 +396,7 @@ color: #fff;
 }
 
 .social {
+    display: flex;
     position: absolute;
     top: 20px;
     right: 267px;
@@ -390,7 +404,6 @@ color: #fff;
 
 
 .social__item {
-    display: inline-block;
     vertical-align: middle;
     margin-right: 10px;
 
