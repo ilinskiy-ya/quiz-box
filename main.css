@@ -474,7 +474,7 @@ color: #fff;
     flex-direction: column;
     min-height: 363px;
     width: 1140px;
-    background: url(/img/backgound/background_top.png) right 57% top 55% no-repeat;
+    background: url(img/backgound/background_top.png) right 57% top 55% no-repeat;
 }
 
 .top-line__container {
