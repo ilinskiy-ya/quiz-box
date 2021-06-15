@@ -22,13 +22,21 @@ h1, h2, h3, h4, h5, h6 {
     font-weight: normal;
 }
 
+html, body {
+    height: 100%;
+}
+
+
 .wrapper {
     margin: 0 auto;
-    width: 1920px;
-    height: 2930px;
+    min-width: 1100px;
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
 }
 
 .wrapper__content {
+    flex: 1;
     width: 1140px;
     margin-top: 64px;
     margin-left: 372px
@@ -40,8 +48,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .header {
-    height: 52px;
-    position: relative;
+    /*height: 52px;
+    position: relative;*/
     margin-bottom: 150px;
 }
 
@@ -450,4 +458,69 @@ color: #fff;
 
 .social__item--icon--instagram .social__link:hover {
     background-image: url("img/social/hover/in.png");
+}
+
+
+/*games page*/
+
+.wrapper {
+    display: flex;
+    justify-content: flex-start;    
+    align-items: center;
+}
+
+.top-line {
+    display: flex;
+    flex-direction: column;
+    min-height: 363px;
+    width: 1140px;
+    background: url(/img/backgound/background_top.png) right 57% top 55% no-repeat;
+}
+
+.top-line__container {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.header {
+    margin-bottom: 106px;
+}
+
+.page__title {
+    color: #fff;
+    font-size: 72px;
+    line-height: 1;
+    font-weight: bold;
+    margin-bottom: 103px
+    }
+
+.breadcrumbs__list {
+    display: flex;
+    align-items: center;
+}   
+
+.breadcrumbs__item {
+    display: flex;
+    align-items: center;
+}
+
+.breadcrumbs__item:after {
+    content: "/";
+    color: #9A9A9A;
+}
+
+.breadcrumbs__item:last-child::after {
+    display: none;
+}
+
+.breadcrumbs__item--active .breadcrumbs__link {
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.breadcrumbs__link {
+    color: #9A9A9A;
+    font-size: 14px;
 }
