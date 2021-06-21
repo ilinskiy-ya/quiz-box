@@ -511,8 +511,8 @@ color: #fff;
 .top-line {
     display: flex;
     flex-direction: column;
-    min-height: 363px;
-    width: 100%;
+    min-height: 378px;
+    width: 1920px;
     background: url(img/backgound/background_top.png) 
      right 57% top 55% no-repeat;
     align-items: center;
@@ -522,7 +522,7 @@ color: #fff;
     display: flex;
     flex: 1;
     flex-direction: column;
-    justify-content: space-between;
+    /*justify-content: space-between;*/
     width: 1140px;
 }
 
@@ -536,7 +536,11 @@ color: #fff;
     line-height: 1;
     font-weight: bold;
     margin-bottom: 103px
-    }
+}
+
+.breadcrumbs {
+    margin-top: 22px;
+}
 
 .breadcrumbs__list {
     display: flex;
@@ -569,19 +573,25 @@ color: #fff;
 
 .page-content__background {
     display: flex;
-    /*flex: 1;*/
+    flex: 1;
     width: 100%;
     background-color: #F2F2F2;
-    justify-content: center
 }
 
 .page-content {
     display: flex;
-    /* flex: 1; */
-    flex-direction: column;
-    justify-content: space-between;
+    flex: 1;
+    justify-content: center;
     width: 1140px;
     padding: 40px 15px;
+}
+
+.container__reviews {
+    width: 1920px;
+    margin-top: 64px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
     
 .service {
@@ -644,12 +654,14 @@ color: #fff;
 
 .inner-section--bg--grey {
    background: #F4F5F5;
+   width: 1140px;
+   margin-top: 65px;
    }
 
 .inner-section__title {
     font-size: 48px;
     font-weight: bold;
-    margin-bottom: 97px;
+    margin-bottom: 66px;
 }
 
 .partners {
@@ -668,9 +680,15 @@ color: #fff;
 
 /* rewiews page */
 
+.header__reviews {
+    margin-bottom: 92px;
+}
+
 .reviews {
     column-count: 2;
     column-gap: 30px;
+    width: 1140px;
+    /*margin-left: 347px;*/
 }
 
 .reviews__item {
@@ -754,6 +772,7 @@ color: #fff;
 .review__content-text {
     font-size: 16px;
     margin-bottom: 30px;
+    line-height: 1.5;
 }
 
 .review__date {
@@ -763,7 +782,8 @@ color: #fff;
 }
 
 .separator {
-    background: #17191C url(./img/separation.png) right 20% no-repeat; 
+    min-width: 1920px;
+    background: #17191C url(./img/separation.png) right 24% top no-repeat; 
     min-height: 360px;
     display: flex;
     flex-direction: column;
@@ -771,7 +791,7 @@ color: #fff;
 }
 
 .separator__content {
-    max-width: 50%;
+    max-width: 41%;
 }
 
 .separator__title {
@@ -780,6 +800,7 @@ color: #fff;
     color: #FFF;
     line-height: 1.1;
     width: 398px;
+    margin-left: auto;
 }
 
 .form__row {
@@ -812,6 +833,8 @@ color: #fff;
 
 .form__controls {
     display: flex;
+    width: 1140px;
+    /*margin-left: 323px*/
 }
 
 .form__controls-title {
@@ -846,6 +869,8 @@ color: #fff;
 .form__btns {
     display: flex;
     justify-content: flex-end;
+    width: 1140px;
+    /*margin-left: 332px;*/
 }
 
 .button--grey {
@@ -866,3 +891,7 @@ color: #fff;
     background-color: #2B2B2B;
 }
 
+.inner-footer {
+    margin-top: 23px;
+    margin-bottom: 23px;
+}
