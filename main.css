@@ -699,13 +699,25 @@ color: #fff;
     align-items: center;
     font-size: 24px;
     font-weight: bold;
+    color: #1A1B1E;
+    margin-bottom: 11px;
+    text-decoration: none;
+}
+
+.review__user:hover {
+    display: flex;
+    align-items: center;
+    font-size: 24px;
+    font-weight: bold;
     color: #2E77A4;
     margin-bottom: 11px;
+    text-decoration-line:underline;
 }
 
 .review__user:after {
     content: url("./img/review/vk-blue.png");
     height: 26px;
+    margin-left: 9px
 }
 
 .avatar {
