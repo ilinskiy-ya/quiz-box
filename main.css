@@ -99,11 +99,16 @@ img {
     margin-right: 60px;
 }
 
+.menu__link:hover {
+    color: #8F00FF;
+    transition: all 0.5s
+}
+
 .contacts__phone {
-font-size: 26px;
-line-height: 1,3x;
-text-decoration: none;
-color: #fff;
+    font-size: 26px;
+    line-height: 1,3x;
+    text-decoration: none;
+    color: #fff;
 }
 
 .contacts__info {
@@ -149,7 +154,17 @@ color: #fff;
     padding: 18px 41px ;
     text-transform: uppercase;
     text-decoration: none;
-    }
+}
+
+.button:hover {
+    background: #FFF;
+    border-style:solid;
+    border-color: #8F00FF;
+    border-width: 1px;
+    color: #8F00FF;
+    border-radius: 4px;
+    transition: 0.5s;
+}
 
 .new {
     margin-bottom: 127px;
@@ -346,6 +361,7 @@ color: #fff;
 
 .pagination__link--active:hover {
   background-color: #8F00FF;  
+  transition: all 0.5s;
 }
 
 .pagination__link {
@@ -469,6 +485,10 @@ color: #fff;
 
 }
 
+.social__link:hover {
+    transition: all 0.5s;
+}
+
 .social__item--icon--telegram .social__link {
     background-image: url("img/social/telegram.png");
 }
@@ -522,7 +542,6 @@ color: #fff;
     display: flex;
     flex: 1;
     flex-direction: column;
-    /*justify-content: space-between;*/
     width: 1140px;
 }
 
@@ -576,6 +595,9 @@ color: #fff;
     flex: 1;
     width: 100%;
     background-color: #F2F2F2;
+    flex-direction: column;
+    align-items: center;
+    max-height: 1500px;
 }
 
 .page-content {
@@ -645,6 +667,7 @@ color: #fff;
     text-transform: uppercase;
     text-decoration: none;
     margin-left: 21px;
+    transition: all 0.5s;
 }
 
 .inner-section {
@@ -678,7 +701,22 @@ color: #fff;
     justify-content: center;
 }
 
+.img__partners{
+    filter: grayscale(100%);
+}
+
+.img__partners:hover {
+    filter: grayscale(0%);
+    transition: all 0.5s;
+}
+
+
+
 /* rewiews page */
+
+.page-content__review {
+    min-height: 2740px;
+}
 
 .header__reviews {
     margin-bottom: 92px;
@@ -688,7 +726,6 @@ color: #fff;
     column-count: 2;
     column-gap: 30px;
     width: 1140px;
-    /*margin-left: 347px;*/
 }
 
 .reviews__item {
@@ -730,6 +767,7 @@ color: #fff;
     color: #2E77A4;
     margin-bottom: 11px;
     text-decoration-line:underline;
+    transition: all 0.5s;
 }
 
 .review__user:after {
@@ -806,6 +844,8 @@ color: #fff;
 .form__row {
     display: flex;
     margin-bottom: 30px;
+    
+    
 }
 
 .form__input {
@@ -870,7 +910,6 @@ color: #fff;
     display: flex;
     justify-content: flex-end;
     width: 1140px;
-    /*margin-left: 332px;*/
 }
 
 .button--grey {
@@ -880,7 +919,8 @@ color: #fff;
 }
 
 .button--grey:hover {
-    background-color: blueviolet;
+    background-color: #8F00FF;
+    color: #FFF;
 }
 
 .button--color {
