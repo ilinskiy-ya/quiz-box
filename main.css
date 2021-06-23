@@ -40,12 +40,12 @@ img {
     max-width: 100%;
 }
 
-.wrapper__content {
+.container {
     width: 1140px;
-    margin-top: 64px;
+    margin: 0px auto;
 }
 
-.main__page__wrapper {
+.main-page {
     background: url(img/backgound/background_top.png) center top  no-repeat,
      url(img/backgound/background_footer.png) center bottom 148px no-repeat;        
 }
@@ -164,6 +164,9 @@ img {
 }
 
 .hello__container {
+    display: inline-flex;
+    align-items: flex-start;
+    flex-direction: column;
     width: 640px;
     margin-bottom: 226px;
     bottom: 100%;
@@ -203,6 +206,7 @@ img {
     border-color: #8F00FF;
     border-width: 1px;
     color: #8F00FF;
+    padding: 17px 40px ;
     border-radius: 4px;
     transition: 0.5s;
 }
@@ -297,7 +301,7 @@ img {
     border-width: 1px;
     color: #8F00FF;
     border-radius: 4px;
-    padding: 18px 41px ;
+    padding: 17px 40px ;
     text-transform: uppercase;
     text-decoration: none;
     margin-left: 21px;
@@ -463,18 +467,21 @@ img {
     border-width: 1px;
 }
 
-.footer {
-    margin-top: auto;
-}
 
-.footer__section {
-    height: 152px;
-}
+
+
 
 .line {
     border-top: 1px solid #FFF;
     opacity: 0.1;
     height: 38px;
+}
+
+.footer {
+    width: 1140px;
+    position: relative;
+    margin-top: 82px;
+    padding-bottom: 152px;
 }
 
 .footer__container {
@@ -483,11 +490,7 @@ img {
     align-items: center
 }
 
-.footer {
-    width: 1140px;
-    position: relative;
-    margin-top: 82px;
-}
+
 
 .footer__games {
     margin-top: 15px
