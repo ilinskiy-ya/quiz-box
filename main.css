@@ -46,7 +46,7 @@ img {
     margin: 0px auto;
 }
 
-.main-page {
+.main-page  {
     background: url(img/backgound/background_top.png) center top  no-repeat,
      url(img/backgound/background_footer.png) center bottom 148px no-repeat;        
 }
@@ -576,6 +576,7 @@ img {
 .top-line {
     display: flex;
     flex-direction: column;
+    width: 100%;
     min-height: 378px;
     background: url(img/backgound/background_top.png) 
      right 57% top 55% no-repeat;
@@ -756,7 +757,7 @@ img {
 
 
 
-/* rewiews page */
+/* reviews page */
 
 .page-content__review {
     min-height: 2740px;
