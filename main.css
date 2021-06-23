@@ -6,6 +6,7 @@ body {
     background:  #17191C;
     font-size: 16px;
     line-height: 1.42;
+    margin: 0
 }
 
 ul {
@@ -504,23 +505,23 @@ img {
     text-decoration: none;
 }
 
-.social {
+.socials {
     display: flex;
     top: 20px;
     right: 267px;
 }
 
 
-.social__item {
+.socials__item {
     vertical-align: middle;
     margin-right: 10px;
 }
 
-.social__item:last-child {
+.socials__item:last-child {
     margin-right: 0;
 }
 
-.social__link {
+.socials__link {
     display: block;
     text-decoration: none;
     width: 36px;
@@ -529,38 +530,38 @@ img {
 
 }
 
-.social__link:hover {
+.socials__link:hover {
     transition: all 0.5s;
 }
 
-.social__item--icon--telegram .social__link {
-    background-image: url("img/social/telegram.png");
+.socials__item--icon--telegram .socials__link {
+    background-image: url("img/socials/telegram.png");
 }
 
-.social__item--icon--telegram .social__link:hover {
-    background-image: url("img/social/hover/t.png");
+.socials__item--icon--telegram .socials__link:hover {
+    background-image: url("img/socials/hover/t.png");
 }
 
-.social__item--icon--vk .social__link {
-    background-image: url("img/social/vk.png")
+.socials__item--icon--vk .socials__link {
+    background-image: url("img/socials/vk.png")
 }
 
-.social__item--icon--vk .social__link:hover {
-    background-image: url("img/social/hover/vk.png");
+.socials__item--icon--vk .socials__link:hover {
+    background-image: url("img/socials/hover/vk.png");
 }
-.social__item--icon--facebook .social__link {
-    background-image: url("img/social/f.png");
-}
-
-.social__item--icon--facebook .social__link:hover {
-    background-image: url("img/social/hover/fb.png");
-}
-.social__item--icon--instagram .social__link {
-    background-image: url("img/social/in.png");
+.socials__item--icon--facebook .socials__link {
+    background-image: url("img/socials/f.png");
 }
 
-.social__item--icon--instagram .social__link:hover {
-    background-image: url("img/social/hover/in.png");
+.socials__item--icon--facebook .socials__link:hover {
+    background-image: url("img/socials/hover/fb.png");
+}
+.socials__item--icon--instagram .socials__link {
+    background-image: url("img/socials/in.png");
+}
+
+.socials__item--icon--instagram .socials__link:hover {
+    background-image: url("img/socials/hover/in.png");
 }
 
 
@@ -576,10 +577,10 @@ img {
     display: flex;
     flex-direction: column;
     min-height: 378px;
-    width: 1920px;
     background: url(img/backgound/background_top.png) 
      right 57% top 55% no-repeat;
     align-items: center;
+    background-size: cover;
 }
 
 .top-line__container {
@@ -653,7 +654,6 @@ img {
 }
 
 .container__reviews {
-    width: 1920px;
     margin-top: 64px;
     display: flex;
     flex-direction: column;
@@ -766,10 +766,13 @@ img {
     margin-bottom: 92px;
 }
 
+.container__reviews{
+    width: 1140px;
+}
+
 .reviews {
     column-count: 2;
     column-gap: 30px;
-    width: 1140px;
 }
 
 .reviews__item {
@@ -864,7 +867,6 @@ img {
 }
 
 .separator {
-    min-width: 1920px;
     background: #17191C url(./img/separation.png) right 24% top no-repeat; 
     min-height: 360px;
     display: flex;
