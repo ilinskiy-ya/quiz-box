@@ -41,10 +41,8 @@ img {
 }
 
 .wrapper__content {
-    /*flex: 1;*/
     width: 1140px;
     margin-top: 64px;
-    /*margin-left: 372px*/
 }
 
 .main__page__wrapper {
@@ -53,8 +51,6 @@ img {
 }
 
 .header {
-    /*height: 52px;
-    position: relative;*/
     margin-bottom: 150px;
 }
 
@@ -69,17 +65,10 @@ img {
   
 }
 
-/*.menu {    
-    top: 30px;
-    left: 421px;
-} */
-
 .contacts {    
     top: 27px;
-   /* right: 0px ;*/
     font-style: normal;
     text-align: right;
-    /*top: 21px;*/
     right: 0px;
 }
 
@@ -117,15 +106,67 @@ img {
     right: 260px;
     display: flex;
     align-items: center;
-    text-decoration-line: underline;
+    /*text-decoration-line: underline;*/
     color: #fff;
     margin-left: 92px;
     height: 4px;
 }
 
+.contact__shedule {
+    position: relative;
+}
+.contact__drop {
+    background-color: #EDEDED;
+    opacity: 0;
+    border-radius: 4px;
+    padding: 16px 20px;
+    width: 149px;
+    margin-top: 11px;
+    position: absolute;
+    right: 0px;
+    pointer-events: none;
+}
+
+.contact__item {
+    font-size: 13px;
+}
+
+.contact__item--bold {
+    font-weight: bold;
+}
+
+.contact__shedule:hover .contact__drop {
+    opacity: 1;
+    pointer-events: visible;
+    transition: 0.5s;
+}   
+
+.contact__drop::before {
+    content: "";
+    display: block;
+    width: 0px;
+    height: 0px;
+    border: 11px solid transparent;
+    border-top-width: 0px;
+    border-bottom-color: #EDEDED;
+    position: absolute;
+    bottom: 100%;
+    right: 38px;
+}
+
+.contact__drop::after {
+    content: "";
+    display: block;
+    width: 9px;
+    height: 100%;
+    position: absolute;
+    right: 0px;
+}
+
 .hello__container {
     width: 640px;
     margin-bottom: 226px;
+    bottom: 100%;
 }
 
 .hello__title {
