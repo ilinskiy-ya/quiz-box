@@ -33,7 +33,15 @@
                   </nav>
                   <address class="contacts">
                   <a href="tel:+78007003030" class="contacts__phone">8 800 700 30 30</a>
-                  <div class="contacts__info">График работы</div>
+                  <div class="contact__shedule">                    
+                    <a href="#" class="contacts__info">График работы</a>
+                    <div class="contact__drop">
+                        <ul class="contact__list">
+                            <li class="contact__item--bold">пн-вс:09:00-20:00</li>
+                            <li class="contact__item">Обед: 14:00 - 14:30 </li>
+                        </ul>
+                    </div>
+                </div>
                   </address>
                 </div>
             </header>
@@ -172,10 +180,10 @@
                             </div>
                         </li> 
                     </ul>
-                    <section class="pages  pages--theme--light">
+                    <section class="pages  pages--light">
                         <div class="container__pages">
                                 <p class="pages__text">Страница 1 из 7</p>
-                                      <ul class="pagination__list">
+                                      <ul class="pagination">
                                           <li class="pagination__item">
                                               <a href="#" class="pagination__link pagination__link--active">1</a>
                                           </li>
@@ -200,6 +208,7 @@
                                       </ul>                                                 
                         </div>
                     </section>
+                </div>
                     <section class="separator">
                         <div class="container">
                             <div class="separator__content">
@@ -220,56 +229,55 @@
                                 <div class="form__row">
                                     <textarea placeholder="Напишите свой честный отзыв ;)" class="form__input form__input--textarea"></textarea>                                
                                 </div>
+                                <div class="form__controls">
+                                    <div class="form__controls-title">Какими услугами компнии вы пользуетесь?</div>
+                                    <ul class="controls">
+                                        <li class="controls__item">
+                                            <label class="controls__elem">
+                                                <input type="checkbox" class="controls__chexbox">
+                                                <div class="tag controls__tag">90-е</div>
+                                            </label>                                
+                                        </li>
+                                        <li class="controls__item">
+                                            <label class="controls__elem">
+                                                <input type="checkbox" class="controls__chexbox">
+                                                <div class="tag controls__tag">IT-викторина</div>
+                                            </label>                                
+                                        </li><li class="controls__item">
+                                            <label class="controls__elem">
+                                                <input type="checkbox" class="controls__chexbox">
+                                                <div class="tag controls__tag">Кино и музыка</div>
+                                            </label>                                
+                                        </li><li class="controls__item">
+                                            <label class="controls__elem">
+                                                <input type="checkbox" class="controls__chexbox">
+                                                <div class="tag controls__tag">Гарри Поттер</div>
+                                            </label>                                
+                                        </li><li class="controls__item">
+                                            <label class="controls__elem">
+                                                <input type="checkbox" class="controls__chexbox">
+                                                <div class="tag controls__tag">Игра один</div>
+                                            </label>                                
+                                        </li><li class="controls__item">
+                                            <label class="controls__elem">
+                                                <input type="checkbox" class="controls__chexbox">
+                                                <div class="tag controls__tag">Игра два</div>
+                                            </label>                                
+                                        </li><li class="controls__item">
+                                            <label class="controls__elem">
+                                                <input type="checkbox" class="controls__chexbox">
+                                                <div class="tag controls__tag">Игра три</div>
+                                            </label>                                
+                                        </li>
+                                    </ul>                                    
+                                </div>
+                                <div class="form__btns">
+                                    <button type="reset" class="button button--grey">Очистить</button>
+                                    <button type="submit" class="button button--grey">Отправить</button>
+                                </div>
                             </form>
                         </div>
-                    </section>
-                    <div class="form__controls">
-                        <div class="form__controls-title">Какими услугами компнии вы пользуетесь?</div>
-                        <ul class="controls">
-                            <li class="controls__item">
-                                <label class="controls__elem">
-                                    <input type="checkbox" class="controls__chexbox">
-                                    <div class="tag controls__tag">90-е</div>
-                                </label>                                
-                            </li>
-                            <li class="controls__item">
-                                <label class="controls__elem">
-                                    <input type="checkbox" class="controls__chexbox">
-                                    <div class="tag controls__tag">IT-викторина</div>
-                                </label>                                
-                            </li><li class="controls__item">
-                                <label class="controls__elem">
-                                    <input type="checkbox" class="controls__chexbox">
-                                    <div class="tag controls__tag">Кино и музыка</div>
-                                </label>                                
-                            </li><li class="controls__item">
-                                <label class="controls__elem">
-                                    <input type="checkbox" class="controls__chexbox">
-                                    <div class="tag controls__tag">Гарри Поттер</div>
-                                </label>                                
-                            </li><li class="controls__item">
-                                <label class="controls__elem">
-                                    <input type="checkbox" class="controls__chexbox">
-                                    <div class="tag controls__tag">Игра один</div>
-                                </label>                                
-                            </li><li class="controls__item">
-                                <label class="controls__elem">
-                                    <input type="checkbox" class="controls__chexbox">
-                                    <div class="tag controls__tag">Игра два</div>
-                                </label>                                
-                            </li><li class="controls__item">
-                                <label class="controls__elem">
-                                    <input type="checkbox" class="controls__chexbox">
-                                    <div class="tag controls__tag">Игра три</div>
-                                </label>                                
-                            </li>
-                        </ul>
-                    </div>
-                    <div class="form__btns">
-                        <button type="reset" class="button button--grey">Очистить</button>
-                        <button type="submit" class="button button--grey">Отправить</button>
-                    </div>
-                </div>
+                    </section>                                                      
             </main>
         </div>
         <footer class="inner-footer">
@@ -292,18 +300,18 @@
                            </li>
                        </ul>
                    </nav>
-                       <ul class="social">
-                           <li class="social__item social__item--icon--telegram">
-                               <a href="" class="social__link"></a>
+                       <ul class="socials">
+                           <li class="socials__item socials__item--icon--telegram">
+                               <a href="" class="socials__link"></a>
                            </li>                               
-                           <li class="social__item social__item--icon--vk">
-                               <a href="" class="social__link"></a>
+                           <li class="socials__item socials__item--icon--vk">
+                               <a href="" class="socials__link"></a>
                            </li>                
-                           <li class="social__item social__item--icon--facebook">
-                               <a href="" class="social__link"></a>
+                           <li class="socials__item socials__item--icon--facebook">
+                               <a href="" class="socials__link"></a>
                            </li>            
-                           <li class="social__item social__item--icon--instagram">
-                               <a href="" class="social__link"></a>
+                           <li class="socials__item socials__item--icon--instagram">
+                               <a href="" class="socials__link"></a>
                            </li>
                        </ul>           
                    <address class="contacts">

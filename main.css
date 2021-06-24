@@ -52,13 +52,14 @@ img {
 }
 
 .header {
-    margin-bottom: 150px;
+    margin-bottom: 137px;
+    margin-top: 34px;
 }
 
 .header__container {
     display: flex;
     justify-content: space-between;
-    align-items: baseline;
+    align-items: stretch;
 }
 
 .logo {
@@ -71,6 +72,10 @@ img {
     font-style: normal;
     text-align: right;
     right: 0px;
+}
+
+.menu {
+    margin-left: 85px;
 }
 
 .menu__list {
@@ -106,8 +111,7 @@ img {
     top: 21px;
     right: 260px;
     display: flex;
-    align-items: center;
-    /*text-decoration-line: underline;*/
+    align-items: center;    
     color: #fff;
     margin-left: 92px;
     height: 4px;
@@ -169,7 +173,7 @@ img {
     align-items: flex-start;
     flex-direction: column;
     width: 640px;
-    margin-bottom: 226px;
+    margin-bottom: 211px;
     bottom: 100%;
 }
 
@@ -187,7 +191,7 @@ img {
     display: flex;
     align-items: center;
     color: #fff;
-    margin-bottom: 74px;
+    margin-bottom: 89px;
     margin-left: 4px
 }
 
@@ -368,19 +372,19 @@ img {
 
 }
 
-.pages--theme--light .pagination__link{
+.pages--light .pagination__link{
    color: #000; 
 }
 
-.pages--theme--light .pagination__link:hover {
+.pages--light .pagination__link:hover {
     color: #FFF;  
   }
 
-.pages--theme--light .pages__text {
+.pages--light .pages__text {
     color: #000;
 }
 
-.pages__text, .pagination__list {
+.pages__text, .pagination {
     display: inline-flex;
     vertical-align: middle;
     margin-right: 26px;
@@ -429,6 +433,7 @@ img {
     width: 489px;
     height: 505px;
     background: url("img/image--people2.jpg") center center / cover no-repeat; 
+    margin-bottom: 90px
 }
 
 .image__about {
@@ -481,11 +486,12 @@ img {
 .footer {
     width: 1140px;
     position: relative;
-    margin-top: 82px;
-    padding-bottom: 152px;
+    margin-top: 25px;
+    margin-bottom: 50px;
 }
 
 .footer__container {
+    /*border-top: 1px solid #3d3d3d;*/
     display: flex;
     justify-content: space-between;
     align-items: center
@@ -591,8 +597,9 @@ img {
     width: 1140px;
 }
 
-.header {
-    margin-bottom: 106px;
+.header--games {
+    margin-bottom: 95px;
+    margin-top: 32px;
 }
 
 .page__title {
@@ -600,11 +607,13 @@ img {
     font-size: 72px;
     line-height: 1;
     font-weight: bold;
-    margin-bottom: 103px
+    margin-bottom: 121px;
+    margin-left: 21px;
 }
 
 .breadcrumbs {
-    margin-top: 22px;
+    margin-top: 11px;
+    margin-left: 23px;
 }
 
 .breadcrumbs__list {
@@ -641,17 +650,18 @@ img {
     flex: 1;
     width: 100%;
     background-color: #F2F2F2;
-    flex-direction: column;
     align-items: center;
-    max-height: 1500px;
+    max-height: 1600px;
 }
 
 .page-content {
     display: flex;
     flex: 1;
     justify-content: center;
-    width: 1140px;
-    padding: 40px 15px;
+    width: 100%;
+    padding: 116px 0px;
+    flex-direction: column;
+    align-items: center;
 }
 
 .container__reviews {
@@ -663,13 +673,14 @@ img {
     
 .service {
   display: flex;
-  padding: 46px 43px;
+ /*padding: 46px 43px;*/
   text-decoration: none;
+  padding-bottom: 43px;
 }
 
 .service__img {
-    width: 44%;
-    margin-right: 7%;
+    width: 41%;
+    margin-right: 4%;
 }
 
 .services__content {
@@ -684,7 +695,7 @@ img {
 }
 
 .service__desc {
-    margin-bottom: 64px;
+    margin-bottom: 82px;
 }
 
 .button--dark-service {
@@ -723,7 +734,7 @@ img {
 .inner-section--bg--grey {
    background: #F4F5F5;
    width: 1140px;
-   margin-top: 65px;
+   margin-top: 177px;
    }
 
 .inner-section__title {
@@ -868,7 +879,8 @@ img {
 }
 
 .separator {
-    background: #17191C url(./img/separation.png) right 24% top no-repeat; 
+    background: #17191C url(./img/separation.png) right 25% top no-repeat; 
+    width: 100%;
     min-height: 360px;
     display: flex;
     flex-direction: column;
@@ -876,7 +888,7 @@ img {
 }
 
 .separator__content {
-    max-width: 41%;
+    max-width: 35%;
 }
 
 .separator__title {
@@ -920,8 +932,7 @@ img {
 
 .form__controls {
     display: flex;
-    width: 1140px;
-    /*margin-left: 323px*/
+    flex-direction: row;
 }
 
 .form__controls-title {
@@ -956,7 +967,6 @@ img {
 .form__btns {
     display: flex;
     justify-content: flex-end;
-    width: 1140px;
 }
 
 .button--grey {
