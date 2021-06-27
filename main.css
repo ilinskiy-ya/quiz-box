@@ -31,7 +31,7 @@ html, body {
 .wrapper {
     margin: 0 auto;
     min-width: 1100px;
-    min-height: 100%;
+    height: 100%;
     display: flex;
     flex-direction: column;
 }
@@ -45,7 +45,12 @@ img {
     display: flex;
     flex-direction: column;
     margin: 0px auto;
-    height: 100%
+    /*height: 100%*/  
+}
+
+.container__index {
+    display: flex;
+    flex: 1 0 auto;
 }
 
 .main-page  {
@@ -372,7 +377,11 @@ img {
     text-align: center;
     padding-left: 90px;
     margin-bottom: 136px;
+}
 
+.container__pages--games {
+    margin-bottom: 30px;
+    margin-top: 30px;
 }
 
 .pages--light .pagination__link{
@@ -492,7 +501,11 @@ img {
 
 .footer__index {
     border-top: 1px solid rgba(255,255,255,0.1);
-    padding-top: 30px;
+    padding-top: 52px;
+    margin-top: 16px;
+    margin-bottom: 36px;
+    display: flex;
+    flex: 0 0 auto;
 }
 
 .footer__container {
@@ -504,7 +517,8 @@ img {
 
 
 .footer__games {
-    margin-top: 15px
+    margin-top: 15px;
+    margin-bottom: 0
 }
 
 .menu--footer {
@@ -513,6 +527,10 @@ img {
 
 .contacts__info--footer {
     text-decoration: none;
+}
+
+.logo__img--footer { 
+    margin-right: 88px;
 }
 
 .socials {
@@ -587,7 +605,7 @@ img {
     display: flex;
     flex-direction: column;
     width: 100%;
-    min-height: 378px;
+    min-height: 413px;
     background: url(img/backgound/background_top.png) 
      right 57% top 55% no-repeat;
     align-items: center;
@@ -611,13 +629,12 @@ img {
     font-size: 72px;
     line-height: 1;
     font-weight: bold;
-    margin-bottom: 121px;
-    margin-left: 21px;
+    margin-bottom: 120px;
+    margin-left: 7px;
 }
 
 .breadcrumbs {
     margin-top: 11px;
-    margin-left: 23px;
 }
 
 .breadcrumbs__list {
@@ -697,7 +714,7 @@ img {
 }
 
 .service__desc {
-    margin-bottom: 82px;
+    margin-bottom: 102px;
 }
 
 .button--dark-service {
@@ -736,7 +753,7 @@ img {
 .inner-section--bg--grey {
    background: #F4F5F5;
    width: 1140px;
-   margin-top: 132px;
+   margin-top: 63px;
    }
 
 .inner-section__title {
@@ -780,7 +797,7 @@ img {
     display: flex;
     flex: 1;
     width: 1140px;
-    padding: 116px 0px;
+    padding: 36px 0px;
     flex-direction: column;
     align-items: center;
 }
@@ -796,6 +813,7 @@ img {
 .reviews {
     column-count: 2;
     column-gap: 30px;
+    padding-bottom: 98px;
 }
 
 .reviews__item {
@@ -920,9 +938,7 @@ img {
 
 .form__row {
     display: flex;
-    margin-bottom: 30px;
-    
-    
+    padding-bottom: 17px;    
 }
 
 .form__input {
@@ -951,6 +967,7 @@ img {
 .form__controls {
     display: flex;
     flex-direction: row;
+    margin-bottom: 33px
 }
 
 .form__controls-title {
@@ -1008,7 +1025,8 @@ img {
 
 .inner-footer {
     margin-top: 23px;
-    margin-bottom: 23px;
+    /*margin-bottom: 23px;*/
+    padding-bottom: 32px;
 }
 
 
